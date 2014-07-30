@@ -50,6 +50,11 @@
                             </execution>
                         </executions>
                         <configuration>
+                            <warSourceDirectory>${project.parent.basedir}/solr/target/solr-overlay</warSourceDirectory>
+                            <path>/solr</path>
+                            <systemProperties>
+                                <solr.solr.home>${project.parent.basedir}/solr/solr_home</solr.solr.home>
+                            </systemProperties>
                             <webapps>
                                 <webapp>
                                     <groupId>${project.groupId}</groupId>

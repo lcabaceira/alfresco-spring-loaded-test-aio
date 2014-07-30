@@ -20,6 +20,7 @@
         <module>share</module>
         <module>repo-war</module>
         <module>share-war</module>
+        <module>solr</module>
         <module>runner</module>
     </modules>
 
