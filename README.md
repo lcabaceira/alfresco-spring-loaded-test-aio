@@ -1,4 +1,4 @@
-IDE-Friendly Spring loaded  based RAD support for Alfresco
+IDE-Friendly Spring loaded  based RAD support for Alfresco All In One archetype
 
 Run this project with:
 
