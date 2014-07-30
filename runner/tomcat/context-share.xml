@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="../share-war/target/share-war" path="/share">
+
+    <Resources className="org.apache.naming.resources.VirtualDirContext"
+               extraResourcePaths="/=../share/target/share/web" />
+
+    <Loader className="org.apache.catalina.loader.VirtualWebappLoader" searchVirtualFirst="true"
+            virtualClasspath="../share/target/classes;../share/target/test-classes;../share/target/repo/config" />
+
+</Context>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="../repo-war/target/repo-war" path="/alfresco">
+
+    <Resources className="org.apache.naming.resources.VirtualDirContext"
+               extraResourcePaths="/=${project.parent.basedir}/repo/target/repo/web" />
+
+    <Loader className="org.apache.catalina.loader.VirtualWebappLoader" searchVirtualFirst="true"
+            virtualClasspath="${project.parent.basedir}/repo/target/classes;${project.parent.basedir}/repo/target/test-classes;${project.parent.basedir}/repo/target/repo/config" />
+
+</Context>
